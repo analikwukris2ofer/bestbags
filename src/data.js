@@ -1,6 +1,9 @@
 import winter from "./images/wintershop.png";
 import autumn from "./images/autumnshop.png";
 import summer from "./images/summershop.png";
+import cap from "./images/cap.jpg";
+import shoe from "./images/shoe.jpg";
+import shop from "./images/shop.jpg";
 
 export const SliderItems = [
   {
@@ -23,5 +26,23 @@ export const SliderItems = [
     title: "AUTUMN SALE",
     desc: "GET 40% OFF ON NEW ARRIVALS. SUMMER SALE!!",
     bg: "f5fafc",
+  },
+];
+
+export const categories = [
+  {
+    id: 1,
+    img: cap,
+    title: "CAP STYLE",
+  },
+  {
+    id: 2,
+    img: shoe,
+    title: "SHOE STYLE",
+  },
+  {
+    id: 3,
+    img: shop,
+    title: "SHIRT STYLE",
   },
 ];
