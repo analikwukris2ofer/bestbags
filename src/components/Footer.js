@@ -9,7 +9,6 @@ import {
   MailOutline,
   Contactless,
   Payment,
-  PointOfSale,
   Atm,
 } from "@material-ui/icons";
 
