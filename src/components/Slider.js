@@ -5,6 +5,7 @@ import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import winter from "../images/wintershop.png";
 // import autumn from "../images/autumnshop.png";
 import { SliderItems } from "../data";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100%;
@@ -14,6 +15,7 @@ const Container = styled.div`
   /* background-color: coral; */
   position: relative;
   overflow: hidden;
+  ${mobile({ display: "none" })}
 `;
 
 const Arrow = styled.div`
